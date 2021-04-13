@@ -1,0 +1,109 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ 
+th,td {
+
+    border: 3px solid white;
+    padding: 10px;
+    color: #FFFF00;
+}
+ 
+#data {
+    margin-bottom: 10px;
+}
+ 
+#data input, button {
+    padding: 10px;
+    width: 90px;
+}
+table{
+	margin-top: 20px;
+}
+.button{
+	background: #fff;
+	padding: 10px 15px;
+	color: #34495e;
+	font-weight: bolder;
+	margin-top: 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 6px 6px 29px -9px rgba(0,0,0,0.75);
+	text-decoration: none;
+	transition: 0.4s;
+
+}
+.button:hover{
+	background: #34495e;
+	color: #fff;
+}
+
+#popup{
+	background: rgba(0,0,0,0.6);
+	width: 110%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	align-items: center;
+
+}
+.data{
+	height: 250px;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+	text-align: center;
+	transform: translate(100%, 10%);
+}
+input{
+	margin: 20px auto;
+	display: block;
+	width: 47%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+select{
+	margin: 20px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+h1{
+	padding-top: 20px;
+	color: #fff;
+	font-weight: bolder;
+}
+body{
+	background: #e74c3c;
+}
+button{
+	background: #34495e;
+	padding: 10px 15px;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	box-shadow: 6px 6px 29px -9px rgba(0,0,0,0.75);
+	text-decoration: none;
+	transition: 0.4s;
+}
+button:hover{
+	background: #fff;
+	color: #34495e;
+}
